@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  fee-service:
+    image: acuma/pbs-service:latest
+    restart: always
+    ports:
+      - "4026:4026"
+    logging:
+      driver: json-file
+      options:
+        max-size: "100m"
+        max-file: "2"
