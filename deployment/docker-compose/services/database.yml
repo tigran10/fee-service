@@ -3,7 +3,7 @@ version: '2'
 services:
   database:
     image: mongo:3.2.4
-    container_name: spring-mongo
+    container_name: mongo-fee-service
     restart: always
     logging:
       driver: json-file

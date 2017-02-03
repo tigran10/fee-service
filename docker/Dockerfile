@@ -14,7 +14,7 @@ COPY init.sh /scom/share/init.sh
 
 RUN chmod 755 /scom/share/init.sh
 WORKDIR $DIRPATH
-EXPOSE 4025
+EXPOSE 8080
 
 ENTRYPOINT ["/scom/share/init.sh"]
 
