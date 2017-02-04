@@ -1,6 +1,6 @@
 ## prerequisite
-we are basing our image on a stripped java8 image. To build fee service as a docker container you will need to build java8 image first
-navigate to `docker-images/java8-tiny` folder and run
+we are basing our image on a stripped java8 image. To build fee service as a docker container you will need to build java8 image first which is available in pbs project. 
+navigate to `docker-images/java8-tiny` folder inside pbs repo, and run
 ```make build-docker```
 
 ## build
