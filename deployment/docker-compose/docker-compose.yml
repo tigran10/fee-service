@@ -12,7 +12,7 @@ services:
       file: services/fee-service.yml
       service: fee-service
     ports:
-      - "8090:8090"
+      - "4026:8080"
 
 networks:
   default:

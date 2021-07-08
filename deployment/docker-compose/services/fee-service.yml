@@ -2,10 +2,10 @@ version: '2'
 
 services:
   fee-service:
-    image: acuma/pbs-service:latest
+    image: acuma/fee-service:latest
     restart: always
     ports:
-      - "4026:4026"
+      - "4026:8080"
     logging:
       driver: json-file
       options:
